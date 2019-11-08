@@ -16,10 +16,11 @@
     "@types/google-protobuf": "^3.7.2",
     "@types/jasmine": "^3.4.4",
     "clang-format": "^1.2.4",
+    "grpc-tools": "^1.8.0",
     "husky": "^3.0.9",
     "rollup": "^1.25.1",
     "rollup-plugin-commonjs": "^10.1.0",
-    "ts-protoc-gen": "^0.11.0",
+    "ts-protoc-gen": "https://github.com/Multiply/ts-protoc-gen/releases/download/0.12.1-pre/ts-protoc-gen-0.12.1-pre.tgz",
     "typescript": "^3.6.4"
   },
   "scripts": {

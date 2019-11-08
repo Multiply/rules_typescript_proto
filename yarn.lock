@@ -1155,6 +1155,13 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.2.tgz#6f0952605d0140c1cfdb138ed005775b92d67b02"
   integrity sha512-IItsdsea19BoLC7ELy13q1iJFNmd7ofZH5+X/pJr90/nRoPEX0DJo1dHDbgtYWOhJhcCgMDTOw84RZ72q6lB+Q==
 
+grpc-tools@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/grpc-tools/-/grpc-tools-1.8.0.tgz#db438dbd0cfb43d412dc02a767d5fb2193636847"
+  integrity sha512-GzYHjPQ/sbV/DmnNRksapMlLj26Tvq2Qppmzjmd+lHYZNeWM1feiGsYCduzJLyy295P+3uYIPy2/w/1thAnOow==
+  dependencies:
+    node-pre-gyp "^0.12.0"
+
 handlebars@^4.0.3:
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.4.3.tgz#180bae52c1d0e9ec0c15d7e82a4362d662762f6e"
@@ -3049,10 +3056,9 @@ toidentifier@1.0.0:
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
 
-ts-protoc-gen@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/ts-protoc-gen/-/ts-protoc-gen-0.11.0.tgz#6a31755321c0d0f4563ce7bcdb8b72a2c9a7c458"
-  integrity sha512-A/TbXf7JpHGj+bfQaR8H7qfoYC8jS8OQoWBRUVSFvJspg2UFHDkuAtLne3fxXzAAQL/qUofINjZpLAOhVkKMtg==
+"ts-protoc-gen@https://github.com/Multiply/ts-protoc-gen/releases/download/0.12.1-pre/ts-protoc-gen-0.12.1-pre.tgz":
+  version "0.12.1-pre"
+  resolved "https://github.com/Multiply/ts-protoc-gen/releases/download/0.12.1-pre/ts-protoc-gen-0.12.1-pre.tgz#412ccc76539cc1efa80266755932534546c825ba"
   dependencies:
     google-protobuf "^3.6.1"
 
